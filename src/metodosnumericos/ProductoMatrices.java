@@ -14,13 +14,13 @@ public class ProductoMatrices {
         byte columnaB;
         
         System.out.println("digite el numeor de fila de la matriz uno");
-        filaA = captura.nextInt();
+        filaA = captura.nextByte();
         System.out.println("digite el numero de columna de la matriz uno");
-        columnaA = captura.nextInt();
+        columnaA = captura.nextByte();
         System.out.println("digite el numeor de fila de la matriz dos");
-        filaB = captura.nextInt();
+        filaB = captura.nextByte();
         System.out.println("digite el numero de columna de la matriz dos");
-        columnaB = captura.nextInt();
+        columnaB = captura.nextByte();
       
         if((columnaA==filaB)){
             double A[][] = new double[filaA][columnaA];
