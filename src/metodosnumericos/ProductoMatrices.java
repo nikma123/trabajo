@@ -8,10 +8,10 @@ public class ProductoMatrices {
         
         
         
-        int filaA;
-        int columnaA;
-        int filaB;
-        int columnaB;
+        byte filaA;
+        byte columnaA;
+        byte filaB;
+        byte columnaB;
         
         System.out.println("digite el numeor de fila de la matriz uno");
         filaA = captura.nextInt();
