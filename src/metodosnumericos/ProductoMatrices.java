@@ -1,7 +1,7 @@
 
 package metodosnumericos;
 import java.util.Scanner;
-
+//autor nicolas bedoya
 public class ProductoMatrices {
     public static void main(String[] args) {
         Scanner captura = new Scanner (System.in);
